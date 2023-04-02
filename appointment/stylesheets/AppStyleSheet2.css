@@ -1,0 +1,48 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../MasterPagePIC.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.Appointmentbox {
+    position:fixed;
+    top:50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    width: 433px;
+    height: 746px;
+    padding: 80px 40px;
+    box-sizing:inherit;
+    background: rgb(0,0,0,0.5);
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: 265px;
+    left: 815px;
+    position: absolute;
+}
+
+
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(237,208,49);
+}
+
+.Label1,Label2,Label3,Label4,Label5,lblNumber, lblemail, lblpass {
+    font-weight: bold;
+    color: #fff;
+}
+
+.txtname, txtNumber, txtemail, .txtpass, btnsubmit {
+    width: 100%;
+    margin-bottom: 20px;
+}
